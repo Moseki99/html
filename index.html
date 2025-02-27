@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+  <title>Phone Plug</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0077b6; /* Blue background */
+      color: #fff; /* White text for contrast */
+      margin: 0;
+      padding: 0;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .phone-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .phone-card {
+      background: #fff;
+      color: #000; /* Black text for cards */
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .phone-card img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .phone-card h3 {
+      margin: 10px 0;
+    }
+    .phone-card .price {
+      font-weight: bold;
+      color: #0077b6; /* Blue color for price */
+    }
+    .phone-card button {
+      background: #0077b6;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #023e8a; /* Darker blue for footer */
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Techplug</h1>
+    <p>Welcome to our website where we sell the latest and greatest phones!</p>
+    
+    <h2>Greetings</h2>
+    <p>Explore our collection of smartphones and find the perfect one for you.</p>
+
+    <h2>Our Phones</h2>
+    <div class="phone-grid">
+      <!-- Phone 1 -->
+      <div class="phone-card">
+        <img src="images/phone1.jpg" alt="Phone 1">
+        <h3>Smartphone X1</h3>
+        <p>High-performance smartphone with a stunning display.</p>
+        <p class="price">$499.99</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <!-- Phone 2 -->
+      <div class="phone-card">
+        <img src="images/phone2.jpg" alt="Phone 2">
+        <h3>Smartphone Y2</h3>
+        <p>Ultra-slim design with a powerful camera.</p>
+        <p class="price">$599.99</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <!-- Phone 3 -->
+      <div class="phone-card">
+        <img src="images/phone3.jpg" alt="Phone 3">
+        <h3>Smartphone Z3</h3>
+        <p>Long-lasting battery with 5G connectivity.</p>
+        <p class="price">$699.99</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <!-- Phone 4 -->
+      <div class="phone-card">
+        <img src="images/phone4.jpg" alt="Phone 4">
+        <h3>Smartphone A4</h3>
+        <p>Affordable yet powerful for everyday use.</p>
+        <p class="price">$399.99</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Techplug. All rights reserved.</p>
+  </footer>
+</body>
+</html>
